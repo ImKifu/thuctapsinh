@@ -1,0 +1,14 @@
+
+
+You need to add the Git Maintainers repository in order to get the latest Git version.
+
+Please run these commands in order:
+
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt-get update
+sudo apt-get install git
+
+Then, check the version of the installed Git:
+
+git --version
+ 

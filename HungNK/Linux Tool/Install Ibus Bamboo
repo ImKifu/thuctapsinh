@@ -1,0 +1,19 @@
+sudo apt install -y language-selector-gnome && gnome-language-selector
+
+sudo apt install make golang libx11-dev libxtst-dev
+
+//tao thu muc git mkdir git, cd vao git 
+
+git clone https://github.com/BambooEngine/ibus-bamboo.git
+
+cd ibus-bamboo
+
+sudo make install
+
+// install ibus : sudo apt install git 
+
+im-config -n ibus
+
+// roi bat ibus, ibus restart 
+
+
